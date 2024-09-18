@@ -1,6 +1,9 @@
 fogsaadiff
 ==========
 
+I created this library because of frustration that typical diffs didn't work very well on arrays, e.g. when you
+insert or delete a value, often the diff will say that every value after it has changed.
+
 [JSON Patch](https://tools.ietf.org/html/rfc6902) defines a JSON document structure for expressing a
 sequence of operations to apply to a JavaScript Object Notation
 (JSON) document; it is suitable for use with the HTTP PATCH method.
