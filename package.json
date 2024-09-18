@@ -1,0 +1,16 @@
+{
+  "name": "fogsaadiff",
+  "version": "1.0.0",
+  "description": "A json-patch diff that is intended to work well between different versions of immutable data structures.  Builds on work from JSON8, and the FOGSAA algorithm.  For convenience, re-exports immutable-json-patch's patch.",
+  "main": "lib/diff.js",
+  "type": "module",
+  "keywords": ["json-patch", "immutable", "diff", "fogsaa"],
+  "author": "me@kybernetikos.com",
+  "license": "ISC",
+  "dependencies": {
+    "immutable-json-patch": "^1.1.1"
+  },
+  "exports": {
+    ".": "./lib/diff.js"
+  }
+}
